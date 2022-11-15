@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeFragment"
+        android:title="@string/bottom_menu_home"
+        android:icon="@drawable/ic_home_24"/>
+    <item
+        android:id="@+id/creationFragment"
+        android:title="@string/bottom_menu_create"
+        android:icon="@drawable/ic_create_24"/>
+    <item
+        android:id="@+id/myRoutinesFragment"
+        android:title="@string/bottom_menu_routines"
+        android:icon="@drawable/ic_weights_24"/>
+</menu>

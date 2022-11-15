@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/derek/Documents/FCFM/SM/PIA/workoaching/app/src/main/res/drawable/input_search.xml" value="0.3671875" />
+        <entry key="..\:/Users/derek/Documents/FCFM/SM/PIA/workoaching/app/src/main/res/drawable/unselected_border.xml" value="0.3026041666666667" />
+        <entry key="..\:/Users/derek/Documents/FCFM/SM/PIA/workoaching/app/src/main/res/drawable/white_border.xml" value="0.3026041666666667" />
+        <entry key="..\:/Users/derek/Documents/FCFM/SM/PIA/workoaching/app/src/main/res/layout/action_bar.xml" value="0.2791666666666667" />
+        <entry key="..\:/Users/derek/Documents/FCFM/SM/PIA/workoaching/app/src/main/res/layout/activity_category.xml" value="0.33" />
+        <entry key="..\:/Users/derek/Documents/FCFM/SM/PIA/workoaching/app/src/main/res/layout/activity_create_routine.xml" value="0.25" />
+        <entry key="..\:/Users/derek/Documents/FCFM/SM/PIA/workoaching/app/src/main/res/layout/activity_edit_routine.xml" value="0.18" />
+        <entry key="..\:/Users/derek/Documents/FCFM/SM/PIA/workoaching/app/src/main/res/layout/activity_login.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/derek/Documents/FCFM/SM/PIA/workoaching/app/src/main/res/layout/activity_main.xml" value="0.17831813576494426" />
+        <entry key="..\:/Users/derek/Documents/FCFM/SM/PIA/workoaching/app/src/main/res/layout/activity_routine_details.xml" value="0.30572916666666666" />
+        <entry key="..\:/Users/derek/Documents/FCFM/SM/PIA/workoaching/app/src/main/res/layout/activity_search.xml" value="0.22146739130434784" />
+        <entry key="..\:/Users/derek/Documents/FCFM/SM/PIA/workoaching/app/src/main/res/layout/exercise_card_layout.xml" value="0.223731884057971" />
+        <entry key="..\:/Users/derek/Documents/FCFM/SM/PIA/workoaching/app/src/main/res/layout/exercise_series_card_layout.xml" value="0.33" />
+        <entry key="..\:/Users/derek/Documents/FCFM/SM/PIA/workoaching/app/src/main/res/layout/fragment_creation.xml" value="0.33" />
+        <entry key="..\:/Users/derek/Documents/FCFM/SM/PIA/workoaching/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Users/derek/Documents/FCFM/SM/PIA/workoaching/app/src/main/res/layout/fragment_my_routines.xml" value="0.21557971014492755" />
+        <entry key="..\:/Users/derek/Documents/FCFM/SM/PIA/workoaching/app/src/main/res/layout/fragment_my_routines_tab.xml" value="0.21557971014492755" />
+        <entry key="..\:/Users/derek/Documents/FCFM/SM/PIA/workoaching/app/src/main/res/layout/fragment_public_user_routines.xml" value="0.30416666666666664" />
+        <entry key="..\:/Users/derek/Documents/FCFM/SM/PIA/workoaching/app/src/main/res/layout/fragment_search.xml" value="0.30572916666666666" />
+        <entry key="..\:/Users/derek/Documents/FCFM/SM/PIA/workoaching/app/src/main/res/layout/select_exercise_card_layout.xml" value="0.2509057971014493" />
+<<<<<<< HEAD
+        <entry key="..\:/Users/felix/AndroidStudioProjects/Workoaching/app/src/main/res/drawable/bottom_nav_icon_color_selector.xml" value="0.3769230769230769" />
+=======
+<<<<<<< HEAD
+        <entry key="..\:/Users/derek/Documents/FCFM/SM/PIA/workoaching/app/src/main/res/menu/bottom_menu.xml" value="0.3123076923076923" />
+        <entry key="..\:/Users/derek/Documents/FCFM/SM/PIA/workoaching/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2578125" />
+        <entry key="..\:/Users/derek/Documents/FCFM/SM/PIA/workoaching/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2578125" />
+=======
+>>>>>>> 47cd52077b04d953aeb3f04cc7a451687ea9c587
+        <entry key="..\:/Users/felix/AndroidStudioProjects/Workoaching/app/src/main/res/drawable/unselected_border.xml" value="0.3769230769230769" />
+>>>>>>> 87195f2b2c52bd2d6b498bb98fd13f285b269767
+        <entry key="..\:/Users/felix/AndroidStudioProjects/Workoaching/app/src/main/res/layout/action_bar.xml" value="0.33" />
+        <entry key="..\:/Users/felix/AndroidStudioProjects/Workoaching/app/src/main/res/layout/activity_category.xml" value="0.17831813576494426" />
+        <entry key="..\:/Users/felix/AndroidStudioProjects/Workoaching/app/src/main/res/layout/activity_main.xml" value="0.14907407407407408" />
+        <entry key="..\:/Users/felix/AndroidStudioProjects/Workoaching/app/src/main/res/layout/activity_register.xml" value="0.2246376811594203" />
+        <entry key="..\:/Users/felix/AndroidStudioProjects/Workoaching/app/src/main/res/layout/activity_routine_details.xml" value="0.17831813576494426" />
+        <entry key="..\:/Users/felix/AndroidStudioProjects/Workoaching/app/src/main/res/layout/activity_search.xml" value="0.17831813576494426" />
+        <entry key="..\:/Users/felix/AndroidStudioProjects/Workoaching/app/src/main/res/layout/fragment_home.xml" value="0.17831813576494426" />
+        <entry key="..\:/Users/felix/AndroidStudioProjects/Workoaching/app/src/main/res/layout/fragment_my_routines_tab.xml" value="0.17831813576494426" />
+        <entry key="..\:/Users/felix/AndroidStudioProjects/Workoaching/app/src/main/res/layout/fragment_public_user_images.xml" value="0.2246376811594203" />
+        <entry key="..\:/Users/felix/AndroidStudioProjects/Workoaching/app/src/main/res/layout/fragment_user_profile_fields.xml" value="0.17831813576494426" />
+        <entry key="..\:/Users/felix/AndroidStudioProjects/Workoaching/app/src/main/res/layout/fragment_user_profile_images.xml" value="0.22146739130434784" />
+        <entry key="..\:/Users/felix/AndroidStudioProjects/Workoaching/app/src/main/res/layout/user_image_layout.xml" value="0.14907407407407408" />
+        <entry key="..\:/Users/felix/AndroidStudioProjects/Workoaching/app/src/main/res/menu/show_menu.xml" value="0.36666666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

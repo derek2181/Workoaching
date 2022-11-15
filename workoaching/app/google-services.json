@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "402594753107",
+    "project_id": "sistemas-moviles-604e8",
+    "storage_bucket": "sistemas-moviles-604e8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:402594753107:android:acb809b8b3660d764ab4a6",
+        "android_client_info": {
+          "package_name": "com.example.workoaching"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "402594753107-1ruubid3ehhaues5feq0gtg847p0mlds.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRX7HfduUHVglHCWZ29uzIOlM4uMd5svI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "402594753107-1ruubid3ehhaues5feq0gtg847p0mlds.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

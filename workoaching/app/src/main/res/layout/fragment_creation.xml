@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".controllers.CreationFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/create_your_routine"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/select_your_exercises"
+            android:textColor="@color/primary_red"
+            android:textSize="15sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+        >
+
+            <TextView
+
+                android:id="@+id/exerciseTypeName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="10dp"
+                android:text="@string/chest_exercises"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/exerciseTypeImage"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+
+                android:background="@drawable/pecho_category" />
+
+        </LinearLayout>
+        <com.shuhart.stepview.StepView
+            android:id="@+id/stepView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+
+            app:sv_doneCircleColor="@color/greeb_selection"
+            app:sv_doneCircleRadius="12dp"
+            app:sv_doneTextColor="@color/white"
+            app:sv_doneStepLineColor="@color/greeb_selection"
+            app:sv_doneStepMarkColor="@color/white"
+            app:sv_nextStepCircleColor="@color/primary_red"
+            app:sv_nextStepLineColor="@color/white"
+            app:sv_nextStepCircleEnabled="true"
+            app:sv_nextTextColor="@color/white"
+
+            app:sv_selectedCircleRadius="12dp"
+            app:sv_selectedStepNumberColor="@color/white"
+            app:sv_selectedTextColor="@color/white"
+            app:sv_selectedCircleColor="@color/black"
+            app:sv_stepPadding="4dp"
+
+
+            >
+
+        </com.shuhart.stepview.StepView>
+
+    <LinearLayout
+        android:id="@+id/routineNameContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/routine_name"
+        android:textSize="22sp"
+        android:textColor="@color/white"
+        android:layout_marginBottom="10dp">
+
+    </TextView>
+        <EditText
+            android:id="@+id/routineName"
+
+            android:inputType="textShortMessage|textAutoCorrect|textCapSentences|textMultiLine"
+            android:imeOptions="actionSend|flagNoEnterAction"
+            android:maxLines="4"
+            android:maxLength="2000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/white"
+            >
+
+        </EditText>
+    </LinearLayout>
+        <RelativeLayout
+            android:id="@+id/SwipeAbleArea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp">
+
+
+            <ProgressBar
+                android:id="@+id/progressBarExercisesByCategory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:translationZ="5dp"
+
+                android:visibility="gone"/>
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/exercisesRecycler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="0dp"
+                android:fadeScrollbars="true"
+                android:scrollbarAlwaysDrawVerticalTrack="true"
+                android:scrollbarFadeDuration="@integer/material_motion_duration_long_1"
+                android:scrollbarStyle="outsideInset"
+                android:scrollbarThumbVertical="@color/primary_red"
+                android:scrollbars="vertical"
+                app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+                app:spanCount="2"
+                tools:listitem="@layout/select_exercise_card_layout">
+
+            </androidx.recyclerview.widget.RecyclerView>
+
+            <Button
+                android:id="@+id/prevExerciseType"
+                android:layout_width="50dp"
+
+                android:layout_height="80dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerVertical="true"
+                android:text="&lt;"
+                android:textSize="30sp"></Button>
+
+            <Button
+                android:id="@+id/nextExerciseType"
+                android:layout_width="50dp"
+                android:layout_height="80dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_centerVertical="true"
+                android:text="&gt;"
+                android:textSize="30sp"></Button>
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

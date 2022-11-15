@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/action_bar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="4dp"
+    >
+    <LinearLayout
+        android:layout_height="50dp"
+        android:layout_width="50dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_weight="0.2"
+        >
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/user_btn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+
+
+            android:background="@drawable/roundcorneruserpicture"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:src="@drawable/ic_account_circle_24"
+            />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/logo_2"
+        />
+    <ImageButton
+        android:id="@+id/search_btn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_weight="0.2"
+        android:layout_gravity="center"
+        android:background="@null"
+        app:srcCompat="@drawable/ic_search_24"
+        />
+
+
+</LinearLayout>

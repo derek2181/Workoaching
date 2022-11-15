@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".controllers.PublicUserImages">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/publicUserImagesRecyclerView"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="match_parent"
+        />
+
+    <ProgressBar
+        android:id="@+id/progressBarPublicUserImages"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:indeterminateTint="@color/primary_red"
+
+        />
+    <TextView
+        android:id="@+id/txtNoImages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:gravity="center"
+        android:visibility="gone"
+        android:text="No hay imagenes que mostrar"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        />
+
+
+</LinearLayout>
